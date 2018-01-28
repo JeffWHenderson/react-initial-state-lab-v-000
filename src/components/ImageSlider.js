@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDom from 'react-dom'
 
 class ImageSlider extends React.Component {
-  render() {
+  constructor() {
     return(
       <div><h1>I am on slide CURRENT_SLIDE</h1></div>
     )
