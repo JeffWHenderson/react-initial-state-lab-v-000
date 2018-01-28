@@ -5,6 +5,9 @@ class Bomb extends React.Component {
   constructor() {
     super()
 
+    this.prop = {
+      initialCount = 120
+    }
     this.state = {
       isEnabled: false
     }
