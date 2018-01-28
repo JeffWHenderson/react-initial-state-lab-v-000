@@ -12,8 +12,8 @@ class Bomb extends React.Component {
 
 
   render(){
-    return (
       let time = this.state.secondsLeft
+    return (
       <div>
         <h1>Boom!</h1>
       </div>
