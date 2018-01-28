@@ -1,4 +1,3 @@
-// Bomb Component Code Goes Here
 import React from "react"
 import ReactDom from "react-dom"
 
