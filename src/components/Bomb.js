@@ -6,13 +6,14 @@ class Bomb extends React.Component {
     super()
 
     this.state = {
-      initialCount: 120
+      secondsLeft: 120
     }
   }
 
 
   render(){
     return (
+      let time = this.state.secondsLeft
       <div>
         <h1>Boom!</h1>
       </div>
