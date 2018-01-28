@@ -6,13 +6,13 @@ class ImageSlider extends React.Component {
     super()
 
     this.state = {
-      isEnabled: false
+      currentSlide: 0
     }
   }
 
   render() {
     return(
-        <div><h1>I am on slide CURRENT_SLIDE</h1></div>
+        <div><h1>I am on slide {this.state.currentSlide}</h1></div>
     )
   }
 }
