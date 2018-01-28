@@ -2,11 +2,11 @@ import React from "react"
 import ReactDom from "react-dom"
 
 class Bomb extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
 
     this.state = {
-      secondsLeft: 120
+      secondsLeft: props.initialCount
     }
   }
 
